@@ -8,6 +8,7 @@ import toast from "react-hot-toast";
 import Link from "next/link";
 
 const LoginPage = () => {
+
   const {
     register,
     handleSubmit,
@@ -39,6 +40,14 @@ const LoginPage = () => {
       toast.success("Login successful 🎉");
     }
   };
+
+    const handleGoogleSignin = async () => {
+        const data = await authClient.signIn.social({
+    provider: "google",
+     });
+     console.log(data);
+     
+    }
 
   return (
     <div className="min-h-[70vh] flex justify-center items-center bg-slate-100">
@@ -114,9 +123,7 @@ const LoginPage = () => {
 
         {/* Google Login */}
         <button
-          onClick={() =>
-            authClient.signIn.social({ provider: "google" })
-          }
+          onClick={handleGoogleSignin}
           className="btn w-full"
         >
           Continue with Google

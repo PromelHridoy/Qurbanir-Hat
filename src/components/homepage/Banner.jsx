@@ -23,7 +23,7 @@ export default function Hero() {
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div
           className="max-w-xl text-white text-center md:text-left" >
-          <h1 className="font-bol text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight mb-4">
+          <h1 className="font-bol text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-green-400 mb-4">
             Buy Qurbani Animals Easily
           </h1>
           <p className="text-sm sm:text-base md:text-lg mb-6 text-gray-200">
@@ -31,7 +31,7 @@ export default function Hero() {
           </p>
 
           <Link href={'all-animals'}>
-          <button color="warning" variant="solid" className="w-full sm:w-auto">
+          <button className="btn  btn-success w-full sm:w-auto">
             Explore Now
           </button>
           </Link>

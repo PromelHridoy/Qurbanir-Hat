@@ -25,8 +25,7 @@ const Navbar = () => {
           >
             <li><NavLink href="/">Home</NavLink></li>
             <li><NavLink href="/all-animals">All Animals</NavLink></li>
-            {/* লগইন থাকলে মোবাইল মেনুতেও প্রোফাইল দেখানো যেতে পারে */}
-            {user && <li><NavLink href="/my-profile">My Profile</NavLink></li>}
+            <li><NavLink href="/profile">My Profile</NavLink></li>
           </ul>
         </div>
 
@@ -44,7 +43,7 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1 font-medium gap-2">
           <li><NavLink href="/">Home</NavLink></li>
           <li><NavLink href="/all-animals">All Animals</NavLink></li>
-          {user && <li><NavLink href="/profile">My Profile</NavLink></li>}
+          <li><NavLink href="/profile">My Profile</NavLink></li>
         </ul>
       </div>
 

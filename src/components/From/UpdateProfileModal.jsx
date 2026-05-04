@@ -2,22 +2,27 @@
 
 import { useState } from "react";
 import { authClient } from "@/lib/auth-client";
+import { useRouter } from "next/navigation";
 
-const UpdateProfileModal = () => {
-  // 1. Initialize state
-  const [name, setName] = useState("");
-  const [image, setImage] = useState("");
+const UpdateProfileModal = ({ initialName = "", initialImage = "" }) => {
+  const [name, setName] = useState(initialName);
+  const [image, setImage] = useState(initialImage);
   const [loading, setLoading] = useState(false);
+  const router = useRouter();
 
   const handleUpdate = async () => {
+    if (!name.trim()) return;
+
     setLoading(true);
     try {
       await authClient.updateUser({
         name: name,
         image: image,
       });
+
+      router.refresh();
       
-      // Close modal on success (if using HTML dialog)
+      
       const modal = document.getElementById('update_modal');
       if (modal) modal.close();
       
@@ -29,45 +34,72 @@ const UpdateProfileModal = () => {
   };
 
   return (
-    <dialog id="update_modal" className="modal">
-      <div className="modal-box">
-        <h3 className="font-bold text-lg text-center mb-4">
-          Update Profile
-        </h3>
+    <>
+      <button 
+        className="btn btn-outline btn-sm" 
+        onClick={() => document.getElementById('update_modal').showModal()}
+      >
+        Edit Profile
+      </button>
 
-        <div className="form-control gap-3">
-          <input
-            type="text"
-            placeholder="Enter your name"
-            className="input input-bordered w-full"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
+      <dialog id="update_modal" className="modal modal-bottom sm:modal-middle">
+        <div className="modal-box bg-base-100 shadow-xl border border-base-200">
+          <h3 className="font-bold text-xl text-primary mb-6">
+            Update Profile
+          </h3>
 
-          <input
-            type="text"
-            placeholder="Enter image URL"
-            className="input input-bordered w-full"
-            value={image}
-            onChange={(e) => setImage(e.target.value)}
-          />
-        </div>
+          <div className="space-y-4">
+            <div className="form-control w-full">
+              <label className="label">
+                <span className="label-text font-medium">Full Name</span>
+              </label>
+              <input
+                type="text"
+                placeholder="Ex: Hridoy"
+                className="input input-bordered focus:input-primary w-full"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              />
+            </div>
 
-        <div className="flex gap-2 mt-6">
-          <button 
-            onClick={handleUpdate} 
-            className={`btn btn-primary flex-1 ${loading ? 'loading' : ''}`}
-            disabled={loading}
-          >
-            {loading ? "Saving..." : "Save"}
-          </button>
+            <div className="form-control w-full">
+              <label className="label">
+                <span className="label-text font-medium">Profile Image URL</span>
+              </label>
+              <input
+                type="text"
+                placeholder="https://image-link.com"
+                className="input input-bordered focus:input-primary w-full"
+                value={image}
+                onChange={(e) => setImage(e.target.value)}
+              />
+            </div>
+          </div>
 
-          <form method="dialog" className="flex-1">
-            <button className="btn btn-ghost w-full">Cancel</button>
+          <div className="modal-action flex gap-3">
+            <button 
+              onClick={handleUpdate} 
+              className="btn btn-primary flex-1 shadow-md"
+              disabled={loading}
+            >
+              {loading ? (
+                <span className="loading loading-spinner"></span>
+              ) : (
+                "Save Changes"
+              )}
+            </button>
+
+            <form method="dialog" className="flex-1">
+              <button className="btn btn-ghost w-full border border-base-300">Cancel</button>
+            </form>
+          </div>
+
+          <form method="dialog" className="modal-backdrop">
+            <button>close</button>
           </form>
         </div>
-      </div>
-    </dialog>
+      </dialog>
+    </>
   );
 };
 

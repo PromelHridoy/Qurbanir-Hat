@@ -46,6 +46,14 @@ const RegisterPage = () => {
     }
   };
 
+  const handleGoogleSignin = async () => {
+        const data = await authClient.signIn.social({
+    provider: "google",
+     });
+     console.log(data);
+     
+    }
+
   return (
     <div className="container mx-auto min-h-[90vh] flex justify-center items-center bg-slate-100">
       <div className="p-6 rounded-2xl shadow-lg bg-white w-full max-w-md">
@@ -158,9 +166,7 @@ const RegisterPage = () => {
 
         {/* Google Login */}
         <button
-          onClick={() =>
-            authClient.signIn.social({ provider: "google" })
-          }
+          onClick={handleGoogleSignin}
           className="btn w-full"
         >
           Continue with Google
