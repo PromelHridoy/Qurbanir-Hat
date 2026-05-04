@@ -1,0 +1,623 @@
+[
+  {
+    "id": 1,
+    "name": "Deshi Shahi Cow",
+    "type": "Cow",
+    "breed": "Local Deshi",
+    "price": 120000,
+    "weight": 280,
+    "age": 3,
+    "location": "Bogura",
+    "description": "Healthy deshi cow suitable for Qurbani. Well fed with natural খাবার.",
+    "image": "https://i.postimg.cc/example-cow1.jpg",
+    "category": "Large Animal"
+  },
+  {
+    "id": 2,
+    "name": "Friesian Cross Cow",
+    "type": "Cow",
+    "breed": "Friesian Cross",
+    "price": 165000,
+    "weight": 330,
+    "age": 4,
+    "location": "Dhaka",
+    "description": "Hybrid breed with বড় আকৃতি and ভালো health.",
+    "image": "https://i.postimg.cc/example-cow2.jpg",
+    "category": "Large Animal"
+  },
+  {
+    "id": 3,
+    "name": "Sahiwal Premium Cow",
+    "type": "Cow",
+    "breed": "Sahiwal",
+    "price": 200000,
+    "weight": 370,
+    "age": 4,
+    "location": "Mymensingh",
+    "description": "High quality cow with strong body and বড় সাইজ.",
+    "image": "https://i.postimg.cc/example-cow3.jpg",
+    "category": "Large Animal"
+  },
+  {
+    "id": 4,
+    "name": "Red Chittagong Cow",
+    "type": "Cow",
+    "breed": "RCC",
+    "price": 140000,
+    "weight": 300,
+    "age": 3.5,
+    "location": "Chattogram",
+    "description": "Popular RCC breed, lean meat and healthy.",
+    "image": "https://i.postimg.cc/example-cow4.jpg",
+    "category": "Large Animal"
+  },
+  {
+    "id": 5,
+    "name": "Local Bull King",
+    "type": "Cow",
+    "breed": "Local Bull",
+    "price": 180000,
+    "weight": 360,
+    "age": 4,
+    "location": "Rajshahi",
+    "description": "Strong bull, suitable for big Qurbani.",
+    "image": "https://i.postimg.cc/example-bull1.jpg",
+    "category": "Large Animal"
+  },
+
+  {
+    "id": 6,
+    "name": "Black Bengal Goat",
+    "type": "Goat",
+    "breed": "Black Bengal",
+    "price": 25000,
+    "weight": 35,
+    "age": 2,
+    "location": "Rajshahi",
+    "description": "Famous Bangladeshi goat, tasty meat.",
+    "image": "https://i.postimg.cc/example-goat1.jpg",
+    "category": "Small Animal"
+  },
+  {
+    "id": 7,
+    "name": "Jamunapari Goat",
+    "type": "Goat",
+    "breed": "Jamunapari",
+    "price": 42000,
+    "weight": 45,
+    "age": 2.5,
+    "location": "Khulna",
+    "description": "Large size goat, ভালো growth.",
+    "image": "https://i.postimg.cc/example-goat2.jpg",
+    "category": "Small Animal"
+  },
+  {
+    "id": 8,
+    "name": "Boer Cross Goat",
+    "type": "Goat",
+    "breed": "Boer Cross",
+    "price": 50000,
+    "weight": 50,
+    "age": 2,
+    "location": "Dhaka",
+    "description": "Imported cross breed with heavy body.",
+    "image": "https://i.postimg.cc/example-goat3.jpg",
+    "category": "Small Animal"
+  },
+  {
+    "id": 9,
+    "name": "Deshi White Goat",
+    "type": "Goat",
+    "breed": "Local",
+    "price": 22000,
+    "weight": 30,
+    "age": 1.8,
+    "location": "Barishal",
+    "description": "Healthy local goat, easy to maintain.",
+    "image": "https://i.postimg.cc/example-goat4.jpg",
+    "category": "Small Animal"
+  },
+
+  {
+    "id": 10,
+    "name": "Deshi Sheep",
+    "type": "Sheep",
+    "breed": "Local",
+    "price": 22000,
+    "weight": 30,
+    "age": 1.5,
+    "location": "Barishal",
+    "description": "Healthy sheep, ভালো মাংস।",
+    "image": "https://i.postimg.cc/example-sheep1.jpg",
+    "category": "Medium Animal"
+  },
+  {
+    "id": 11,
+    "name": "Garole Sheep",
+    "type": "Sheep",
+    "breed": "Garole",
+    "price": 28000,
+    "weight": 32,
+    "age": 2,
+    "location": "Sylhet",
+    "description": "Rare breed sheep, strong immunity.",
+    "image": "https://i.postimg.cc/example-sheep2.jpg",
+    "category": "Medium Animal"
+  },
+
+  {
+    "id": 12,
+    "name": "Deshi Bull Medium",
+    "type": "Cow",
+    "breed": "Local Bull",
+    "price": 130000,
+    "weight": 300,
+    "age": 3,
+    "location": "Cumilla",
+    "description": "Medium size bull, healthy condition.",
+    "image": "https://i.postimg.cc/example-bull2.jpg",
+    "category": "Large Animal"
+  },
+
+  {
+    "id": 13,
+    "name": "Mini Cow Deshi",
+    "type": "Cow",
+    "breed": "Mini Deshi",
+    "price": 90000,
+    "weight": 220,
+    "age": 2.5,
+    "location": "Dinajpur",
+    "description": "Small size cow, suitable for small families.",
+    "image": "https://i.postimg.cc/example-cow5.jpg",
+    "category": "Large Animal"
+  },
+
+  {
+    "id": 14,
+    "name": "Holstein Cross Cow",
+    "type": "Cow",
+    "breed": "Holstein",
+    "price": 190000,
+    "weight": 380,
+    "age": 4.5,
+    "location": "Rangpur",
+    "description": "Large hybrid cow, ভালো body structure.",
+    "image": "https://i.postimg.cc/example-cow6.jpg",
+    "category": "Large Animal"
+  },
+
+  {
+    "id": 15,
+    "name": "Deshi Goat Small",
+    "type": "Goat",
+    "breed": "Local",
+    "price": 18000,
+    "weight": 25,
+    "age": 1.5,
+    "location": "Noakhali",
+    "description": "Affordable goat, suitable for small Qurbani.",
+    "image": "https://i.postimg.cc/example-goat5.jpg",
+    "category": "Small Animal"
+  },
+
+  {
+    "id": 16,
+    "name": "Black Bengal Premium",
+    "type": "Goat",
+    "breed": "Black Bengal",
+    "price": 30000,
+    "weight": 38,
+    "age": 2,
+    "location": "Pabna",
+    "description": "Premium quality goat, tasty meat.",
+    "image": "https://i.postimg.cc/example-goat6.jpg",
+    "category": "Small Animal"
+  },
+
+  {
+    "id": 17,
+    "name": "Deshi Sheep White",
+    "type": "Sheep",
+    "breed": "Local",
+    "price": 24000,
+    "weight": 31,
+    "age": 1.8,
+    "location": "Feni",
+    "description": "Healthy white sheep.",
+    "image": "https://i.postimg.cc/example-sheep3.jpg",
+    "category": "Medium Animal"
+  },
+
+  {
+    "id": 18,
+    "name": "Garole Premium Sheep",
+    "type": "Sheep",
+    "breed": "Garole",
+    "price": 30000,
+    "weight": 34,
+    "age": 2,
+    "location": "Jessore",
+    "description": "Premium garole sheep.",
+    "image": "https://i.postimg.cc/example-sheep4.jpg",
+    "category": "Medium Animal"
+  },
+
+  {
+    "id": 19,
+    "name": "Local Bull Giant",
+    "type": "Cow",
+    "breed": "Local Bull",
+    "price": 220000,
+    "weight": 420,
+    "age": 5,
+    "location": "Kushtia",
+    "description": "Very বড় bull, ideal for big Qurbani.",
+    "image": "https://i.postimg.cc/example-bull3.jpg",
+    "category": "Large Animal"
+  },
+
+  {
+    "id": 20,
+    "name": "Red Cow Medium",
+    "type": "Cow",
+    "breed": "RCC",
+    "price": 135000,
+    "weight": 290,
+    "age": 3,
+    "location": "Sylhet",
+    "description": "Healthy red cow.",
+    "image": "https://i.postimg.cc/example-cow7.jpg",
+    "category": "Large Animal"
+  },
+
+  {
+    "id": 21,
+    "name": "Friesian Giant Cow",
+    "type": "Cow",
+    "breed": "Friesian",
+    "price": 250000,
+    "weight": 450,
+    "age": 5,
+    "location": "Dhaka",
+    "description": "Very বড় imported cow.",
+    "image": "https://i.postimg.cc/example-cow8.jpg",
+    "category": "Large Animal"
+  },
+
+  {
+    "id": 22,
+    "name": "Mini Goat Deshi",
+    "type": "Goat",
+    "breed": "Local",
+    "price": 15000,
+    "weight": 20,
+    "age": 1,
+    "location": "Tangail",
+    "description": "Small goat, budget friendly.",
+    "image": "https://i.postimg.cc/example-goat7.jpg",
+    "category": "Small Animal"
+  },
+
+  {
+    "id": 23,
+    "name": "Boer Goat Premium",
+    "type": "Goat",
+    "breed": "Boer",
+    "price": 60000,
+    "weight": 55,
+    "age": 2.5,
+    "location": "Gazipur",
+    "description": "Heavy goat, high demand.",
+    "image": "https://i.postimg.cc/example-goat8.jpg",
+    "category": "Small Animal"
+  },
+
+  {
+    "id": 24,
+    "name": "Deshi Sheep Brown",
+    "type": "Sheep",
+    "breed": "Local",
+    "price": 23000,
+    "weight": 29,
+    "age": 1.6,
+    "location": "Rangamati",
+    "description": "Brown sheep, healthy.",
+    "image": "https://i.postimg.cc/example-sheep5.jpg",
+    "category": "Medium Animal"
+  },
+
+  {
+    "id": 25,
+    "name": "Hybrid Cow Large",
+    "type": "Cow",
+    "breed": "Hybrid",
+    "price": 175000,
+    "weight": 340,
+    "age": 4,
+    "location": "Narsingdi",
+    "description": "Hybrid cow, ভালো weight.",
+    "image": "https://i.postimg.cc/example-cow9.jpg",
+    "category": "Large Animal"
+  },
+
+  {
+    "id": 26,
+    "name": "Deshi Bull Strong",
+    "type": "Cow",
+    "breed": "Local Bull",
+    "price": 160000,
+    "weight": 330,
+    "age": 3.5,
+    "location": "Bogra",
+    "description": "Strong and healthy bull.",
+    "image": "https://i.postimg.cc/example-bull4.jpg",
+    "category": "Large Animal"
+  },
+
+  {
+    "id": 27,
+    "name": "Jamunapari Premium Goat",
+    "type": "Goat",
+    "breed": "Jamunapari",
+    "price": 45000,
+    "weight": 48,
+    "age": 2.2,
+    "location": "Khulna",
+    "description": "Premium jamunapari goat.",
+    "image": "https://i.postimg.cc/example-goat9.jpg",
+    "category": "Small Animal"
+  },
+
+  {
+    "id": 28,
+    "name": "Black Bengal Medium",
+    "type": "Goat",
+    "breed": "Black Bengal",
+    "price": 27000,
+    "weight": 34,
+    "age": 2,
+    "location": "Rajshahi",
+    "description": "Medium size goat.",
+    "image": "https://i.postimg.cc/example-goat10.jpg",
+    "category": "Small Animal"
+  },
+
+  {
+    "id": 29,
+    "name": "Deshi Sheep Black",
+    "type": "Sheep",
+    "breed": "Local",
+    "price": 21000,
+    "weight": 28,
+    "age": 1.5,
+    "location": "Bandarban",
+    "description": "Black sheep, ভালো health.",
+    "image": "https://i.postimg.cc/example-sheep6.jpg",
+    "category": "Medium Animal"
+  },
+
+  {
+    "id": 30,
+    "name": "Garole Small Sheep",
+    "type": "Sheep",
+    "breed": "Garole",
+    "price": 26000,
+    "weight": 30,
+    "age": 1.8,
+    "location": "Satkhira",
+    "description": "Small garole sheep.",
+    "image": "https://i.postimg.cc/example-sheep7.jpg",
+    "category": "Medium Animal"
+  },
+
+  {
+    "id": 31,
+    "name": "Holstein Giant Cow",
+    "type": "Cow",
+    "breed": "Holstein",
+    "price": 260000,
+    "weight": 460,
+    "age": 5,
+    "location": "Dhaka",
+    "description": "Huge imported cow.",
+    "image": "https://i.postimg.cc/example-cow10.jpg",
+    "category": "Large Animal"
+  },
+
+  {
+    "id": 32,
+    "name": "Mini Bull Deshi",
+    "type": "Cow",
+    "breed": "Mini Bull",
+    "price": 100000,
+    "weight": 250,
+    "age": 2.5,
+    "location": "Tangail",
+    "description": "Small bull.",
+    "image": "https://i.postimg.cc/example-bull5.jpg",
+    "category": "Large Animal"
+  },
+
+  {
+    "id": 33,
+    "name": "Deshi Goat White",
+    "type": "Goat",
+    "breed": "Local",
+    "price": 20000,
+    "weight": 28,
+    "age": 1.7,
+    "location": "Cumilla",
+    "description": "White goat.",
+    "image": "https://i.postimg.cc/example-goat11.jpg",
+    "category": "Small Animal"
+  },
+
+  {
+    "id": 34,
+    "name": "Boer Cross Heavy",
+    "type": "Goat",
+    "breed": "Boer Cross",
+    "price": 55000,
+    "weight": 52,
+    "age": 2.3,
+    "location": "Gazipur",
+    "description": "Heavy goat.",
+    "image": "https://i.postimg.cc/example-goat12.jpg",
+    "category": "Small Animal"
+  },
+
+  {
+    "id": 35,
+    "name": "Deshi Sheep Grey",
+    "type": "Sheep",
+    "breed": "Local",
+    "price": 22500,
+    "weight": 30,
+    "age": 1.7,
+    "location": "Khagrachari",
+    "description": "Grey sheep.",
+    "image": "https://i.postimg.cc/example-sheep8.jpg",
+    "category": "Medium Animal"
+  },
+
+  {
+    "id": 36,
+    "name": "Garole Strong Sheep",
+    "type": "Sheep",
+    "breed": "Garole",
+    "price": 29000,
+    "weight": 33,
+    "age": 2,
+    "location": "Jessore",
+    "description": "Strong sheep.",
+    "image": "https://i.postimg.cc/example-sheep9.jpg",
+    "category": "Medium Animal"
+  },
+
+  {
+    "id": 37,
+    "name": "Hybrid Bull Premium",
+    "type": "Cow",
+    "breed": "Hybrid Bull",
+    "price": 210000,
+    "weight": 390,
+    "age": 4,
+    "location": "Sirajganj",
+    "description": "Premium hybrid bull.",
+    "image": "https://i.postimg.cc/example-bull6.jpg",
+    "category": "Large Animal"
+  },
+
+  {
+    "id": 38,
+    "name": "Red Cow Premium",
+    "type": "Cow",
+    "breed": "RCC",
+    "price": 150000,
+    "weight": 310,
+    "age": 3.5,
+    "location": "Chattogram",
+    "description": "Premium red cow.",
+    "image": "https://i.postimg.cc/example-cow11.jpg",
+    "category": "Large Animal"
+  },
+
+  {
+    "id": 39,
+    "name": "Mini Goat Black",
+    "type": "Goat",
+    "breed": "Local",
+    "price": 16000,
+    "weight": 22,
+    "age": 1.2,
+    "location": "Noakhali",
+    "description": "Small black goat.",
+    "image": "https://i.postimg.cc/example-goat13.jpg",
+    "category": "Small Animal"
+  },
+
+  {
+    "id": 40,
+    "name": "Black Bengal Giant",
+    "type": "Goat",
+    "breed": "Black Bengal",
+    "price": 32000,
+    "weight": 40,
+    "age": 2.3,
+    "location": "Pabna",
+    "description": "Large black bengal goat.",
+    "image": "https://i.postimg.cc/example-goat14.jpg",
+    "category": "Small Animal"
+  },
+
+  {
+    "id": 41,
+    "name": "Deshi Sheep Premium",
+    "type": "Sheep",
+    "breed": "Local",
+    "price": 26000,
+    "weight": 33,
+    "age": 2,
+    "location": "Barishal",
+    "description": "Premium sheep.",
+    "image": "https://i.postimg.cc/example-sheep10.jpg",
+    "category": "Medium Animal"
+  },
+
+  {
+    "id": 42,
+    "name": "Garole Giant Sheep",
+    "type": "Sheep",
+    "breed": "Garole",
+    "price": 31000,
+    "weight": 35,
+    "age": 2.2,
+    "location": "Sylhet",
+    "description": "Large garole sheep.",
+    "image": "https://i.postimg.cc/example-sheep11.jpg",
+    "category": "Medium Animal"
+  },
+
+  {
+    "id": 43,
+    "name": "Local Cow Medium",
+    "type": "Cow",
+    "breed": "Local",
+    "price": 125000,
+    "weight": 290,
+    "age": 3,
+    "location": "Natore",
+    "description": "Medium cow.",
+    "image": "https://i.postimg.cc/example-cow12.jpg",
+    "category": "Large Animal"
+  },
+
+  {
+    "id": 44,
+    "name": "Hybrid Cow Premium",
+    "type": "Cow",
+    "breed": "Hybrid",
+    "price": 195000,
+    "weight": 360,
+    "age": 4,
+    "location": "Gazipur",
+    "description": "Premium hybrid cow.",
+    "image": "https://i.postimg.cc/example-cow13.jpg",
+    "category": "Large Animal"
+  },
+
+  {
+    "id": 45,
+    "name": "Deshi Bull Premium",
+    "type": "Cow",
+    "breed": "Local Bull",
+    "price": 170000,
+    "weight": 340,
+    "age": 3.8,
+    "location": "Bogura",
+    "description": "Premium deshi bull.",
+    "image": "https://i.postimg.cc/example-bull7.jpg",
+    "category": "Large Animal"
+  }
+]
