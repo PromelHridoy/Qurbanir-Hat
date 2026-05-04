@@ -9,7 +9,7 @@
     "age": 3,
     "location": "Bogura",
     "description": "Healthy local cow suitable for Qurbani. Well fed with natural food.",
-    "image": "https://i.ibb.co.com/k6000DGZ/cow.jpg",
+    "image": "https://i.ibb.co.com/8gxw39vL/1.png",
     "category": "Large Animal"
   },
   {
@@ -22,7 +22,7 @@
     "age": 4,
     "location": "Dhaka",
     "description": "High quality imported breed with large size and excellent health.",
-    "image": "https://i.ibb.co.com/k6000DGZ/cow.jpg",
+    "image": "https://i.ibb.co.com/q3Rw67n1/Australian-Friesian-Cow.png",
     "category": "Large Animal"
   },
   {
@@ -35,7 +35,7 @@
     "age": 2,
     "location": "Rajshahi",
     "description": "Popular Bangladeshi goat known for tasty meat and strong health.",
-    "image": "https://i.ibb.co.com/k6000DGZ/cow.jpg",
+    "image": "https://i.ibb.co.com/sd4Y3yjh/Black-Bengal-Goat.png",
     "category": "Small Animal"
   },
   {
@@ -48,7 +48,7 @@
     "age": 2.5,
     "location": "Khulna",
     "description": "Large size goat suitable for Qurbani and farming.",
-    "image": "https://i.ibb.co.com/k6000DGZ/cow.jpg",
+    "image": "https://i.ibb.co.com/75NtvN2/Jamunapari-Goat.png",
     "category": "Small Animal"
   },
   {
@@ -61,7 +61,7 @@
     "age": 1.5,
     "location": "Barishal",
     "description": "Healthy sheep with good quality meat and easy maintenance.",
-    "image": "https://i.ibb.co.com/k6000DGZ/cow.jpg",
+    "image": "https://i.ibb.co.com/jk4qqNTK/Deshi-Sheep.png",
     "category": "Medium Animal"
   },
   {
@@ -74,7 +74,7 @@
     "age": 2,
     "location": "Sylhet",
     "description": "Rare breed sheep with strong immunity and quality meat.",
-    "image": "https://i.ibb.co.com/k6000DGZ/cow.jpg",
+    "image": "https://i.ibb.co.com/sJ17gZR1/Garole-Sheep.png",
     "category": "Medium Animal"
   },
   {
@@ -87,7 +87,7 @@
     "age": 3.5,
     "location": "Chattogram",
     "description": "Strong bull, perfect for Qurbani with good health condition.",
-    "image": "https://i.ibb.co.com/k6000DGZ/cow.jpg",
+    "image": "https://i.ibb.co.com/9kRP8GxZ/Deshi-Bull.png",
     "category": "Large Animal"
   },
   {
@@ -100,7 +100,7 @@
     "age": 4,
     "location": "Mymensingh",
     "description": "Premium dairy breed with high milk production and large body size.",
-    "image": "https://i.ibb.co.com/k6000DGZ/cow.jpg",
+    "image": "https://i.ibb.co.com/FqhZ6Nt9/Sahiwal-Cow.png",
     "category": "Large Animal"
   }
 ]
