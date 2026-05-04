@@ -1,5 +1,6 @@
 import Featured from "@/components/featured/Featured";
 import Banner from "@/components/homepage/Banner";
+import QurbaniTips from "@/components/homepage/QurbaniTips";
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div className="">
       <Banner/>
       <Featured/>
+      <QurbaniTips/>
     </div>
   );
 }

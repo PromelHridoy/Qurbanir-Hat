@@ -1,22 +1,21 @@
-
 import Footer from "@/components/footer/Footer";
-import QurbaniTips from "@/components/homepage/QurbaniTips";
 import Navbar from "@/components/shared/Navbar";
-
+import { Toaster } from "react-hot-toast";
 
 const MainLayout = ({ children }) => {
     return (
-       <>
-     
-        <Navbar />
-        
-        {children}
+        <div className="flex flex-col min-h-screen">
+            
+            <Toaster position="top-center" />
 
-        <QurbaniTips/>
-        
+            <Navbar />
+            
+            <main className="flex-grow">
+                {children}
+            </main>
 
-        <Footer/>
-       </>
+            <Footer />
+        </div>
     );
 };
 
