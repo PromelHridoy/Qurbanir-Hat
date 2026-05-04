@@ -13,7 +13,7 @@ const AnimalDetailsCard = ({ animal }) => {
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
-      {/* --- Image Section --- */}
+      
       <div className="relative overflow-hidden rounded-[2.5rem] shadow-2xl h-[450px] lg:h-[550px]">
         <Image
           src={animal.image}
@@ -29,7 +29,7 @@ const AnimalDetailsCard = ({ animal }) => {
         </div>
       </div>
 
-      {/* --- Info Section --- */}
+      
       <div className="space-y-8">
         <div>
           <h1 className="text-5xl font-black text-green-900 leading-tight">{animal.name}</h1>
@@ -40,7 +40,7 @@ const AnimalDetailsCard = ({ animal }) => {
           {animal.description}
         </div>
 
-        {/* Specs Grid */}
+        
         <div className="grid grid-cols-2 gap-4">
           {specs.map((spec, index) => (
             <div key={index} className="flex items-center gap-4 p-4 bg-white border border-base-200 rounded-2xl hover:border-success transition-colors shadow-sm">
@@ -53,7 +53,7 @@ const AnimalDetailsCard = ({ animal }) => {
           ))}
         </div>
 
-        {/* Booking Button Section (Client Component) */}
+        
         <ActionButtons animalName={animal.name} />
       </div>
     </div>

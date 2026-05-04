@@ -7,10 +7,10 @@ const BookingForm = ({ animalName, modalId }) => {
     e.preventDefault();
     const form = e.target;
     
-    // বুকিং সাকসেস টোস্ট
+   
     toast.success(`Booking request sent for ${animalName}!`);
 
-    // মোডাল ক্লোজ করা
+    
     if (modalId) {
       document.getElementById(modalId).close();
     }

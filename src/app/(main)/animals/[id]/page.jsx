@@ -17,7 +17,7 @@ const AnimalDetails = async ({ params }) => {
         <FaArrowLeft /> Back to All Animals
       </Link>
 
-      {/* ইমেজ, ইনফো এবং বাটন সব এই কার্ডের ভেতরে */}
+      
       <AnimalDetailsCard animal={animal} />
     </div>
   );
