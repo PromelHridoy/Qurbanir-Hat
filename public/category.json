@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Large Animal"
+  },
+  {
+    "id": 2,
+    "name": "Small Animal"
+  },
+  {
+    "id": 3,
+    "name": "Medium Animal"
+  }
+]
