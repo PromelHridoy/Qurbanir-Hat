@@ -6,15 +6,16 @@ import { headers } from "next/headers";
 export async function proxy(request) {
   console.log("request",request);
   
-  // const session = await auth.api.getSession({
-  //   headers: await headers(),
-  // });
-return NextResponse.redirect(new URL('/login', request.url))
-  // if (!session) {
-   
-  // }
+  const session = await auth.api.getSession({
+    headers: await headers(),
+  });
+
+  if (!session) {
+   return NextResponse.redirect(new URL('/login', request.url))
+  }
+  return NextResponse.next();
 }
 
 export const config = {
-  matcher: "/all-animals",
+  matcher: ["/profile", "/animals/:path*"]
 };
