@@ -5,7 +5,7 @@ import AnimalDetailsCard from "@/components/details/AnimalDetailsCard";
 const AnimalDetails = async ({ params }) => {
   const { id } = await params;
   
-  const res = await fetch("https://qurbanir-hat-tau.vercel.app/data.json");
+  const res = await fetch("https://qurbanir-hat-qobz.vercel.app/data.json");
   const animals = await res.json();
   const animal = animals.find((item) => item.id.toString() === id);
 

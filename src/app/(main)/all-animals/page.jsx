@@ -2,7 +2,7 @@ import AnimalList from "@/components/featured/AnimalList";
 
 
 const AllAnimalsPage = async () => {
-  const res = await fetch("https://qurbanir-hat-tau.vercel.app/data.json");
+  const res = await fetch("https://qurbanir-hat-qobz.vercel.app/data.json");
   const animals = await res.json();
 
   return (
