@@ -16,8 +16,6 @@ const AnimalDetails = async ({ params }) => {
       <Link href="/all-animals" className="btn btn-ghost gap-2 mb-8 hover:text-success transition-all">
         <FaArrowLeft /> Back to All Animals
       </Link>
-
-      
       <AnimalDetailsCard animal={animal} />
     </div>
   );
